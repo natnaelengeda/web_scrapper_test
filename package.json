@@ -1,0 +1,26 @@
+{
+  "name": "testcrawling",
+  "version": "1.0.0",
+  "description": "Install dependencies with npm Follow the instructions on every .js file",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "got-scraping": "^3.2.15",
+    "playwright": "1.41",
+    "puppeteer": "^23.5.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1"
+  }
+}
